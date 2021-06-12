@@ -1,7 +1,7 @@
 # 👍 Schedule-Tasks
 :date: # Neste artigo, você aprenderá como agendar tarefas no Spring Boot usando a anotação @Scheduled. Você também aprenderá a usar um pool de thread personalizado para executar todas as tarefas agendadas
 
-# 1. Visão Geral
+# 1. Introdução
 
 A anotação @Scheduled é adicionada a um método junto com algumas informações sobre quando executá-lo, e Spring Boot cuida do resto.
 
