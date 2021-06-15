@@ -1,5 +1,5 @@
 # 👍 Schedule-Tasks
-:date: # Neste breve artigo, você aprenderá como agendar tarefas no Spring Boot usando a anotação @Scheduled. Você também aprenderá a usar um pool de thread personalizado para executar todas as tarefas agendadas
+:date: # Neste breve artigo, você aprenderá como agendar tarefas no Spring Boot usando a anotação @Scheduled. Você também aprenderá a usar um pool de thread personalizado para executar todas as tarefas agendadas.
 
 # 1. Visão geral
 
@@ -15,7 +15,7 @@ Você pode ativar o agendamento simplesmente adicionando a anotação @EnableSch
 # 3. Agendamento de tarefas
 Agendar uma tarefa com Spring Boot é tão simples quanto anotar um método com anotação @Scheduled e fornecer alguns parâmetros que serão usados para decidir a hora em que a tarefa será executada.
 
-Antes de adicionar tarefas, vamos primeiro criar o contêiner para todas as tarefas agendadas. Crie uma nova classe chamada ScheduledTasks dentro do pacote 
+Antes de adicionar tarefas, vamos primeiro criar o contêiner para todas as tarefas agendadas. Crie uma nova classe chamada ScheduledTasks dentro do pacote. 
 
 A classe contém quatro métodos vazios. Veremos a implementação de todos os métodos, um por um.
 
